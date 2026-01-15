@@ -1,0 +1,36 @@
+{
+  "id": "hill-to-die-on-director-of-realms",
+  "title": "hill-to-die-on-director-of-realms",
+  "description": "An autonomous GM engine for Foundry VTT that procedurally generates maps, encounters, NPCs, and story arcs while maintaining secrecy, pacing, and fog-of-war.",
+  "version": "0.1.13",
+  "authors": [
+    {
+      "name": "Director of Realms Team"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "director-of-realms.js"
+  ],
+  "styles": [
+    "styles/director-of-realms.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/Hill-To-Die-On/Director-Of-Realms-Releases",
+  "manifest": "https://github.com/Hill-To-Die-On/Director-Of-Realms-Releases/releases/latest/download/module.json",
+  "download": "https://github.com/Hill-To-Die-On/Director-Of-Realms-Releases/releases/latest/download/hill-to-die-on-director-of-realms.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/Hill-To-Die-On/Director-Of-Realms-Releases/issues",
+  "changelog": "CHANGELOG.md"
+}
