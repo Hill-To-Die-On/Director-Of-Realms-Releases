@@ -2,7 +2,7 @@
   "id": "hill-to-die-on-director-of-realms",
   "title": "hill-to-die-on-director-of-realms",
   "description": "An autonomous GM engine for Foundry VTT that procedurally generates maps, encounters, NPCs, and story arcs while maintaining secrecy, pacing, and fog-of-war.",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "authors": [
     {
       "name": "Director of Realms Team"
