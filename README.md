@@ -17,12 +17,29 @@
   <img alt="Proprietary licence" src="https://img.shields.io/badge/LICENCE-PROPRIETARY-C8AD76?style=flat-square&amp;labelColor=080A0E">
 </p>
 
-**Director of Realms 1.0** is designed as the living RPG campaign studio for Foundry VTT v14: an autonomous GM and co-GM, mapmaker, campaign manager, and persistent-world engine in one module. It will turn player choices into responsive story, playable locations, evolving characters, and consequences that carry into the next session.
+**Director of Realms 1.0** is designed as the living RPG campaign studio for Foundry VTT v14: an autonomous GM and co-GM, mapmaker, campaign manager, and persistent-world engine built on a system-agnostic campaign core. It will turn player choices into responsive story, playable locations, evolving characters, and consequences that carry into the next session.
 
-The 1.0 experience is being built for fantasy, science-fiction, and horror campaigns, serving solo players, groups without a dedicated GM, and working GMs who want capable assistance while retaining the final call.
+Create a campaign from scratch or bring a pre-authored Foundry adventure you already trust. The 1.0 experience is being built for fantasy, science-fiction, and horror campaigns, serving solo players, groups without a dedicated GM, and working GMs who want capable assistance while retaining the final call.
 
 > [!IMPORTANT]
 > **Director of Realms is currently pre-beta.** This page presents the intended 1.0 product and feature set. Development and release validation are still underway, and there is no public test build or supported download today. Features, tier limits, and launch details may change before release.
+
+## Bring the adventure you already wrote
+
+Director of Realms is designed to automate pre-authored adventures and campaigns as deliberately as it creates original ones. The target 1.0 workflow will let a GM select a Foundry Adventure and its related compendiums, bring the relevant material into the world, and turn that source into an active campaign the Director can help run.
+
+- Resolve and import related Scenes, Actors, Journals, Roll Tables, and Items while avoiding duplicate imports.
+- Build an overarching campaign view from chapters, objectives, locations, characters, and source material.
+- Track progress, completed objectives, player choices, and departures from the expected path across sessions and reloads.
+- Adapt the next scene around unexpected play while preserving the adventure's intent, established facts, and GM decisions.
+
+The GM remains in control of what is imported, what becomes campaign truth, and when the Director should follow, adapt, or pause the authored material.
+
+## System-agnostic by design
+
+The narrative, campaign, map, memory, and world-simulation layers are designed around shared RPG concepts rather than one ruleset or character-sheet schema. System adapters translate Actors, Items, rolls, combat, and rewards where dedicated support exists.
+
+When a game system or custom sheet does not have a safe rules-specific adapter, the generic campaign and narrative workflows remain available while rules-specific changes fall back to GM confirmation or manual handling. The depth of mechanical automation will therefore vary by system, but the campaign engine itself is not tied to a single ruleset.
 
 ## The complete 1.0 campaign loop
 
@@ -36,7 +53,7 @@ Director of Realms will search compatible compendiums and world assets before ge
 
 ### Manage campaigns
 
-Prepare original settings or work with pre-written adventures. Organise campaign material, player-facing journals, GM knowledge, locations, characters, factions, quests, and session records in Foundry. Campaign tools will preserve the context needed to move from preparation to play and back again.
+Prepare original settings or import and automate pre-authored Foundry adventures and compendium campaigns. Organise campaign material, player-facing journals, GM knowledge, locations, characters, factions, quests, and session records in Foundry. Campaign tools will preserve the context needed to move from preparation to play and back again.
 
 ### Run adventures
 
@@ -62,19 +79,19 @@ The 1.0 design coordinates focused systems so each part of the campaign has a cl
 
 ## A Free tier meant to be played
 
-The **1.0 Free tier is intended to support a complete campaign for a small group**: up to four players, one active adventure at a time, core campaign tools, and monetised actual-play rights. It is planned as a real way to play, with paid tiers expanding campaign scale, customisation, automation, and professional use.
+The **1.0 Free tier will stay free (£0) and is intended to support a complete campaign for a small group**: up to four players, one active adventure at a time, core campaign tools, and monetised actual-play rights. It is planned as a real way to play, with paid tiers expanding campaign scale, customisation, automation, and professional use.
 
-### Target 1.0 tier plan
+### Target 1.0 tier structure
 
-| Tier | Planned price | Designed for | Headline scope |
-| --- | ---: | --- | --- |
-| **Free** | **£0** | Solo players and groups of up to four | One active adventure at a time, core AI and campaign features |
-| **Wary But Lairy** | **£1/month** | Growing home tables | Medium adventures, up to six players, all supported model options |
-| **'Tis But A Scratch** | **£7/month** | Regular campaigns and hands-on creators | Long adventures, custom AI endpoints, and bulk tileset creation |
-| **Just A Flesh Wound** | **£15/month** | Epic campaigns and larger groups | Unlimited party size, custom assets, and priority support |
-| **Beheaded & Banished** | **£35/month** | Professional GMs and commercial creators | Unlimited campaigns, verified commercial-use rights, API access, webhooks, streaming integration, and multi-VTT sync |
+| Tier | Designed for | Headline scope |
+| --- | --- | --- |
+| **Free (£0)** | Solo players and groups of up to four | One active adventure at a time, core AI and campaign features |
+| **Wary But Lairy** | Growing home tables | Medium adventures, up to six players, all supported model options |
+| **'Tis But A Scratch** | Regular campaigns and hands-on creators | Long adventures, custom AI endpoints, and bulk tileset creation |
+| **Just A Flesh Wound** | Epic campaigns and larger groups | Unlimited party size, custom assets, and priority support |
+| **Beheaded & Banished** | Professional GMs and commercial creators | Unlimited campaigns, verified commercial-use rights, API access, webhooks, streaming integration, and multi-VTT sync |
 
-This is the tier scope currently targeted for 1.0 and remains subject to pre-beta validation. AI provider charges are separate: compatible local models can run without cloud inference fees, while cloud providers bill under their own terms.
+The tier names and headline scope describe the current 1.0 direction. Packaging, limits, availability, and commercial terms remain subject to pre-beta validation and will be announced closer to launch. AI provider charges are separate: compatible local models can run without cloud inference fees, while cloud providers bill under their own terms.
 
 ## Stream the game at every tier
 
@@ -82,7 +99,7 @@ Every legitimate user, including Free-tier users, may monetise actual-play strea
 
 The built-in streaming integration is a target top-tier product feature. The legal right to monetise ordinary actual play already applies to **every tier** under the published licence.
 
-Paid game-mastering and creating new commercial adventures, maps, handouts, or similar products with Director of Realms require an active, verified **Beheaded & Banished (£35/month)** entitlement. See the [full licence](LICENSE) for the controlling terms.
+Paid game-mastering and creating new commercial adventures, maps, handouts, or similar products with Director of Realms require an active, verified **Beheaded & Banished** entitlement. See the [full licence](LICENSE) for the controlling terms.
 
 ## Choose how the AI runs
 
@@ -100,6 +117,7 @@ Provider credentials are designed to remain in the GM's browser rather than bein
 
 - **Solo players** who want a world that can answer back and keep secrets.
 - **Small groups without a dedicated GM** who still want maps, characters, consequences, and continuity.
+- **GMs with pre-authored campaigns** who want help turning prepared Foundry material into a responsive, tracked campaign.
 - **Working GMs** who want help preparing and running sessions without surrendering the final call.
 - **Actual-play teams** who need a repeatable campaign engine and clear monetised-streaming rights.
 - **Commercial creators** who want higher-volume campaign, integration, and production tools under a verified commercial licence.
