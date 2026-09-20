@@ -79,13 +79,13 @@ The 1.0 design coordinates focused systems so each part of the campaign has a cl
 
 ## A Free tier meant to be played
 
-The **1.0 Free tier is intended to support a complete campaign for a small group**: up to four players, one active adventure at a time, core campaign tools, and monetised actual-play rights. It is planned as a real way to play, with paid tiers expanding campaign scale, customisation, automation, and professional use.
+The **1.0 Free tier will stay free (£0) and is intended to support a complete campaign for a small group**: up to four players, one active adventure at a time, core campaign tools, and monetised actual-play rights. It is planned as a real way to play, with paid tiers expanding campaign scale, customisation, automation, and professional use.
 
 ### Target 1.0 tier structure
 
 | Tier | Designed for | Headline scope |
 | --- | --- | --- |
-| **Free** | Solo players and groups of up to four | One active adventure at a time, core AI and campaign features |
+| **Free (£0)** | Solo players and groups of up to four | One active adventure at a time, core AI and campaign features |
 | **Wary But Lairy** | Growing home tables | Medium adventures, up to six players, all supported model options |
 | **'Tis But A Scratch** | Regular campaigns and hands-on creators | Long adventures, custom AI endpoints, and bulk tileset creation |
 | **Just A Flesh Wound** | Epic campaigns and larger groups | Unlimited party size, custom assets, and priority support |
